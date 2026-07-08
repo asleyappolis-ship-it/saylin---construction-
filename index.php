@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>o
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -120,7 +120,30 @@ padding:20px;
 <p>✔ Fast and Reliable Service</p>
 
 </section>
+input, textarea{
+width:100%;
+padding:15px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:6px;
+font-size:16px;
+box-sizing:border-box;
+}
 
+button{
+background:#f4b400;
+color:white;
+padding:15px 30px;
+border:none;
+border-radius:6px;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+}
+
+button:hover{
+background:#d89b00;
+}
 <footer>
 
 © 2026 Saylin Construction. All Rights Reserved.
