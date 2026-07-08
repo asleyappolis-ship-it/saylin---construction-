@@ -126,6 +126,21 @@ padding:20px;
 © 2026 Saylin Construction. All Rights Reserved.
 
 </footer>
+<section>
+<h2>Request a Free Quote</h2>
 
+<form>
+<p><input type="text" placeholder="Your Name"></p>
+
+<p><input type="email" placeholder="Email Address"></p>
+
+<p><input type="tel" placeholder="Phone Number"></p>
+
+<p><textarea placeholder="Tell us about your project"></textarea></p>
+
+<p><button>Send Quote Request</button></p>
+</form>
+
+</section>
 </body>
 </html>
