@@ -1,4 +1,4 @@
-<!DOCTYPE html>o
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -6,6 +6,7 @@
 <title>Saylin Construction</title>
 
 <style>
+
 body{
 margin:0;
 font-family:Arial,sans-serif;
@@ -22,24 +23,28 @@ text-align:center;
 
 header h1{
 font-size:42px;
-margin-bottom:10px;
+margin:0;
+}
+
+header p{
+font-size:20px;
 }
 
 .btn{
+display:inline-block;
 background:#f4b400;
-padding:15px 30px;
 color:white;
+padding:15px 30px;
 text-decoration:none;
 border-radius:6px;
-display:inline-block;
 margin-top:20px;
 font-weight:bold;
 }
 
 section{
-padding:60px 20px;
 max-width:1100px;
 margin:auto;
+padding:50px 20px;
 }
 
 .services{
@@ -52,7 +57,27 @@ gap:20px;
 background:white;
 padding:25px;
 border-radius:10px;
-box-shadow:0 3px 10px rgba(0,0,0,.1);
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+input,
+textarea{
+width:100%;
+padding:15px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:6px;
+box-sizing:border-box;
+}
+
+button{
+background:#f4b400;
+color:white;
+padding:15px 30px;
+border:none;
+border-radius:6px;
+font-size:18px;
+cursor:pointer;
 }
 
 footer{
@@ -61,6 +86,7 @@ color:white;
 text-align:center;
 padding:20px;
 }
+
 </style>
 
 </head>
@@ -73,7 +99,7 @@ padding:20px;
 
 <p>Building South Africa's Future</p>
 
-<a class="btn" href="#">Request a Quote</a>
+<a class="btn" href="#quote">Request a Quote</a>
 
 </header>
 
@@ -85,7 +111,7 @@ padding:20px;
 
 <div class="card">
 <h3>Residential Construction</h3>
-<p>New homes, additions and renovations.</p>
+<p>New homes, renovations and additions.</p>
 </div>
 
 <div class="card">
@@ -111,59 +137,38 @@ padding:20px;
 
 <h2>Why Choose Saylin Construction?</h2>
 
-<p>✔ Professional workmanship</p>
-
 <p>✔ NHBRC Registered</p>
-
 <p>✔ Residential & Commercial Projects</p>
-
-<p>✔ Fast and Reliable Service</p>
+<p>✔ Professional Workmanship</p>
+<p>✔ Reliable Service</p>
 
 </section>
-input, textarea{
-width:100%;
-padding:15px;
-margin:10px 0;
-border:1px solid #ccc;
-border-radius:6px;
-font-size:16px;
-box-sizing:border-box;
-}
 
-button{
-background:#f4b400;
-color:white;
-padding:15px 30px;
-border:none;
-border-radius:6px;
-font-size:18px;
-font-weight:bold;
-cursor:pointer;
-}
+<section id="quote">
 
-button:hover{
-background:#d89b00;
-}
+<h2>Request a Free Quote</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Email Address">
+
+<input type="tel" placeholder="Phone Number">
+
+<textarea placeholder="Tell us about your project"></textarea>
+
+<button>Send Quote Request</button>
+
+</form>
+
+</section>
+
 <footer>
 
 © 2026 Saylin Construction. All Rights Reserved.
 
 </footer>
-<section>
-<h2>Request a Free Quote</h2>
 
-<form>
-<p><input type="text" placeholder="Your Name"></p>
-
-<p><input type="email" placeholder="Email Address"></p>
-
-<p><input type="tel" placeholder="Phone Number"></p>
-
-<p><textarea placeholder="Tell us about your project"></textarea></p>
-
-<p><button>Send Quote Request</button></p>
-</form>
-
-</section>
 </body>
 </html>
